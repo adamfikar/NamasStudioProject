@@ -1,0 +1,386 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.API\\NamasStudio.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.API\\NamasStudio.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.API\\NamasStudio.API.csproj",
+        "projectName": "NamasStudio.API",
+        "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.API\\NamasStudio.API.csproj",
+        "packagesPath": "C:\\Users\\1691\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1691\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Services\\NamasStudio.Services.csproj": {
+                "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Services\\NamasStudio.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj",
+        "projectName": "NamasStudio.DataAccess",
+        "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\1691\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1691\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Dto\\NamasStudio.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Dto\\NamasStudio.Dto.csproj",
+        "projectName": "NamasStudio.Dto",
+        "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Dto\\NamasStudio.Dto.csproj",
+        "packagesPath": "C:\\Users\\1691\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1691\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Repository\\NamasStudio.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Repository\\NamasStudio.Repository.csproj",
+        "projectName": "NamasStudio.Repository",
+        "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Repository\\NamasStudio.Repository.csproj",
+        "packagesPath": "C:\\Users\\1691\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1691\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj"
+              },
+              "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Dto\\NamasStudio.Dto.csproj": {
+                "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Dto\\NamasStudio.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Services\\NamasStudio.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Services\\NamasStudio.Services.csproj",
+        "projectName": "NamasStudio.Services",
+        "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Services\\NamasStudio.Services.csproj",
+        "packagesPath": "C:\\Users\\1691\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1691\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Repository\\NamasStudio.Repository.csproj": {
+                "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Repository\\NamasStudio.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Isopoh.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

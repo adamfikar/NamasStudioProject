@@ -1,0 +1,238 @@
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\appsettings.Development.json
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\appsettings.json
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\NamasStudio.API.exe
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\NamasStudio.API.deps.json
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\NamasStudio.API.runtimeconfig.json
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\NamasStudio.API.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\NamasStudio.API.pdb
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\AutoMapper.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Azure.Core.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\xunit.abstractions.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\xunit.core.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\NamasStudio.DataAccess.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\NamasStudio.Dto.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\NamasStudio.Repository.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\NamasStudio.Services.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\NamasStudio.Services.pdb
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\NamasStudio.DataAccess.pdb
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\NamasStudio.Dto.pdb
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\NamasStudio.Repository.pdb
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.csproj.AssemblyReference.cache
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.AssemblyInfoInputs.cache
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.AssemblyInfo.cs
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.csproj.CoreCompileInputs.cache
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.MvcApplicationPartsAssemblyInfo.cs
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.MvcApplicationPartsAssemblyInfo.cache
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\scopedcss\bundle\NamasStudio.API.styles.css
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.csproj.CopyComplete
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\refint\NamasStudio.API.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.pdb
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.genruntimeconfig.cache
+C:\NamasStudio.Web.MVC\NamasStudio.API\obj\Debug\net6.0\ref\NamasStudio.API.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Hosting.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Console.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Debug.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventLog.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventSource.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\System.Text.Json.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Isopoh.Cryptography.Argon2.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Isopoh.Cryptography.Blake2b.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Isopoh.Cryptography.SecureArray.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Scrutor.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+C:\NamasStudio.Web.MVC\NamasStudio.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\appsettings.json
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\NamasStudio.API.exe
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\NamasStudio.API.deps.json
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\NamasStudio.API.runtimeconfig.json
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\NamasStudio.API.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\NamasStudio.API.pdb
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Isopoh.Cryptography.Argon2.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Isopoh.Cryptography.Blake2b.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Isopoh.Cryptography.SecureArray.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Hosting.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Console.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Scrutor.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\xunit.abstractions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\xunit.core.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\NamasStudio.DataAccess.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\NamasStudio.Dto.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\NamasStudio.Repository.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\NamasStudio.Services.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\NamasStudio.Services.pdb
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\NamasStudio.DataAccess.pdb
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\NamasStudio.Dto.pdb
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\bin\Debug\net6.0\NamasStudio.Repository.pdb
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.csproj.AssemblyReference.cache
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.AssemblyInfoInputs.cache
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.AssemblyInfo.cs
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.csproj.CoreCompileInputs.cache
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\scopedcss\bundle\NamasStudio.API.styles.css
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.csproj.CopyComplete
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\refint\NamasStudio.API.dll
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.pdb
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\NamasStudio.API.genruntimeconfig.cache
+C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.API\obj\Debug\net6.0\ref\NamasStudio.API.dll

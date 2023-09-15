@@ -1,0 +1,109 @@
+﻿@using NamasStudio.Web.MVC.Models.Category
+
+@model CategoryGridViewModel
+
+@{
+    var StartPage = @Model.Dto.PageNumber - 2;
+    var EndPage = @Model.Dto.PageNumber + 2;
+    var total = @Model.Dto.TotalPages;
+
+    if (StartPage <= 0)
+    {
+        EndPage = EndPage - (StartPage - 1);
+        StartPage = 1;
+    }
+
+    if (EndPage > total)
+    {
+        EndPage = (int)total;
+        if (EndPage > 5)
+        {
+            StartPage = EndPage - 4;
+        }
+    }
+
+    ViewData["Title"] = "Category Index";
+    //var TotalPages = Math.Ceiling((double)@Model.Count / (double)ViewBag.pageSize);
+}
+
+
+
+<div class="col col-search">
+    <div class="input-group pt-2 ps-2">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="search">
+                <i class="mdi mdi-magnify"></i>
+            </span>
+        </div>
+        @using (Html.BeginForm("Index", "Category", FormMethod.Get, null))
+        {
+            <input type="text" name="category" value="@Model.Category" placeholder="Input Category.." class="form-in" />
+            <button class="btn btn-primary text-light ms-1">Submit</button>
+        }
+    </div>
+
+    <a class="btn btn-primary text-light m-2" id="myModalCategory">Add new</a>
+    <div class="text-end mx-2 fst-italic"> Found @Model.Dto.Count Data</div>
+</div>
+
+<div class="col stretch-card col-table">
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive-sm">
+                <table id="recent-purchases-listing" class="table">
+                    <thead>
+                        <tr>
+                            <th>Action</th>
+                            <th>Name</th>
+                            <th>Desc</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Dto.Data)
+                        {
+                            <tr>
+                                <td>
+                                    <a data-id="@item.CategoryId" class="btn btn-primary text-light update-category"><i class="fas fa-edit"></i></a>
+                                    <a data-id="@item.CategoryId" class="btn btn-danger text-light delete-category" style="background-color: red;"><i class="fas fa-trash"></i></a>
+
+                                </td>
+                                <td>@item.CategoryName</td>
+                                <td>@item.Description</td>
+                            </tr>
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">
+                                <div class="pagination justify-content-between">
+                                    <div>page @Model.Dto.PageNumber of @Model.Dto.TotalPages</div>
+                                    <div class="text-dark">
+                                        @for (int i = @StartPage; i <= @EndPage; i++)
+                                        {
+
+                                            <a asp-route-pageNumber="@i" asp-route-pageSize="@Model.Dto.PageSize" asp-route-fullName="@Model.Category">@i</a>
+                                        }
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Insert -->
+@await Html.PartialAsync("_Add")
+
+<!-- Modal Update -->
+@await Html.PartialAsync("_Update")
+
+<!-- Modal Delete -->
+@await Html.PartialAsync("_Delete")
+
+
+
+
+

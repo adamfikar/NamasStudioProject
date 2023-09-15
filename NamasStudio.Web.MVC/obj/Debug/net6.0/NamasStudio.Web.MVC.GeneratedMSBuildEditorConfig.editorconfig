@@ -1,0 +1,149 @@
+is_global = true
+build_property.RefitInternalNamespace = NamasStudio.Web.MVC
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NamasStudio.Web.MVC
+build_property.RootNamespace = NamasStudio.Web.MVC
+build_property.ProjectDir = C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.Web.MVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.Web.MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Category/_Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcX0FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Category/_Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcX0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Category/_Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcX1VwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Errors/PageNeedAuthorize.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzXFBhZ2VOZWVkQXV0aG9yaXplLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Errors/PageNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzXFBhZ2VOb3RGb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/ProductPhoto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFBob3RvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/ProductPhoto/_Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFBob3RvXF9BZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/ProductPhoto/_Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFBob3RvXF9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/ProductPhoto/_Preview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFBob3RvXF9QcmV2aWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/ProductSize/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFNpemVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/ProductSize/_Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFNpemVcX0FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/ProductSize/_Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFNpemVcX0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/ProductSize/_Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFNpemVcX1VwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/ProductStock/StockIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFN0b2NrXFN0b2NrSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/ProductStock/_Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFN0b2NrXF9BZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/ProductStock/_Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFN0b2NrXF9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/ProductStock/_Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFN0b2NrXF9VcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Products/_Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcX0FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Products/_Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcX0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Products/_Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcX1VwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Shared/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdXRoTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Shared/_ErrorLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FcnJvckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Shared/_Navigation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZpZ2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1691/Desktop/New folder/NamasStudioMvc/NamasStudio.Web.MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-844lleokag

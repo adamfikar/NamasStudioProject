@@ -1,0 +1,102 @@
+html {
+    min-height: 100%;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+div#modal-width {
+    max-width: 1000px;
+}
+
+
+.tab-info::before {
+    content: ":";
+    margin-right: 7px; /* Adjust the value as per your preference */
+}
+
+#masonry-container {
+    margin-top: 50px;
+
+    padding-left: 15px; /* Use Bootstrap's default padding for columns */
+    column-count: 2; /* Adjust the column count as needed */
+    column-gap: 15px; /* Use Bootstrap's default column gap */
+}
+
+/* Styling for each image card */
+.masonry-card {
+    position: relative; /* Add relative positioning to the masonry-card */
+    display: inline-block;
+    width: 100%; /* Use 100% width to adapt to Bootstrap's columns */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+.close-button-container {
+    box-sizing: border-box; /* Include padding and border within width */
+    padding: 5px; /* Add padding to create space between the button and container edges */
+}
+
+.remove{
+    background-color: lightgray; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.product-img {
+    width: 200px;
+    max-height: 400px;
+}
+.card-product img {
+    border-radius: 10px;
+}
+
+.card.card-product {
+    border: none;
+}
+
+.set-height {
+    width: 500px;
+    min-height: 500px;
+    max-height: 600px;
+}
+
+.containerLogin {
+    margin: auto;
+    width: 70%; /* Set a percentage width for responsiveness */
+  
+}
+
+
+@media (max-width: 991.98px) {
+    .cascading-right {
+        margin-right: 0;
+    }
+}
+
+.registerArea {
+    display: none;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,79 @@
+﻿@using NamasStudio.Web.MVC.Models.ProductPhoto
+
+
+@model ProductPhotoGridViewModel
+
+<div>
+    <h2 class="ms-3 my-3 ">
+        Product Name
+    </h2>
+
+    <div class="">
+        <div class="row">
+            <div class="ms-3 col">
+                <div class="row ">
+                    <div class="col-1">Price</div>
+                    <div class="col-6 tab-info"></div>
+                </div>
+                <div class="row">
+                    <div class="col-1">Fabric</div>
+                    <div class="col-6 tab-info"></div>
+                </div>
+                <div class="row">
+                    <div class="col-1">Weight</div>
+                    <div class="col-6 tab-info"></div>
+                </div>
+                <div class="row">
+                    <div class="col-1">Desc</div>
+                    <div class="col-6 tab-info"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a class="btn btn-primary text-light m-2" id="myModalPhotoBtn">Add Photo</a>
+    <hr>
+</div>
+
+
+<div class="" id="masonry-container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 mt-3 mb-lg-5">
+        @foreach (var item in Model.Dto.Data)
+        {
+            <div class="col masonry-card">
+                <div class="card card-product">
+                    <div class="product-img position-relative">
+                        <div class="close-button-container position-absolute top-0 end-0 mt-1">
+
+                            <i class="fas fa-trash remove" data-id="@item.PhotoId"></i>
+
+                        </div>
+                        <div>
+                            <a id="previewBtn" data-photo="@Url.Content("~/img/productImage/" + item.PathName)" style="padding-right:20px;">
+                                <img src="@Url.Content("~/img/productImage/" + item.PathName)"
+                                 class="card-img-top img-product"
+                                 alt="" />
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+
+
+<!-- Modal Insert -->
+@await Html.PartialAsync("_Add")
+
+<!-- Modal Delete -->
+@await Html.PartialAsync("_Delete")
+
+<!-- Modal Preview -->
+@await Html.PartialAsync("_Preview")
+
+
+

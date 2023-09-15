@@ -1,0 +1,121 @@
+﻿@using NamasStudio.Web.MVC.Models.ProductSize
+
+@model ProductSizeGridViewModel
+
+@{
+    var StartPage = @Model.Dto.PageNumber - 2;
+    var EndPage = @Model.Dto.PageNumber + 2;
+    var total = @Model.Dto.TotalPages;
+
+    if (StartPage <= 0)
+    {
+        EndPage = EndPage - (StartPage - 1);
+        StartPage = 1;
+    }
+
+    if (EndPage > total)
+    {
+        EndPage = (int)total;
+        if (EndPage > 5)
+        {
+            StartPage = EndPage - 4;
+        }
+    }
+
+    ViewData["Title"] = "Product Size Index";
+    //var TotalPages = Math.Ceiling((double)@Model.Count / (double)ViewBag.pageSize);
+}
+
+
+
+<div class="col col-search">
+    <div class="input-group pt-2 ps-2">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="search">
+                <i class="mdi mdi-magnify"></i>
+            </span>
+        </div>
+        @using (Html.BeginForm("Index", "ProductSize", FormMethod.Get, null))
+        {
+            <input type="text" name="sizeName" value="@Model.Size" placeholder="Input Size.." class="form-in" />
+            <button class="btn btn-primary text-light ms-1">Submit</button>
+        }
+    </div>
+
+    <a class="btn btn-primary text-light m-2" id="myModalProductSize">Add new</a>
+    <div class="text-end mx-2 fst-italic"> Found @Model.Dto.Count Data</div>
+</div>
+
+<div class="col stretch-card col-table">
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table id="recent-purchases-listing" class="table">
+                    <thead>
+                        <tr>
+                            <th>Action</th>
+                            <th>Name</th>
+                            <th>Category</th>
+                            <th>Waist</th>
+                            <th>Hips</th>
+                            <th>Length Lower</th>
+                            <th>Bust</th>
+                            <th>Length Upper</th>
+                            <th>Arm Hole</th>
+                            <th>Bottom Sleeve</th>
+                            <th>Sleeve Length</th>
+                            <th>Desc</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Dto.Data)
+                        {
+                            <tr>
+                                <td>
+                                   <a data-id="@item.SizeId @item.CategoryId" class="btn btn-primary text-light update-productSize"><i class="fas fa-edit"></i></a>
+                                   <a data-id="@item.SizeId @item.CategoryId" class="btn btn-danger text-light delete-productSizeD" style="background-color: red;"><i class="fas fa-trash"></i></a>
+                                </td>
+                                <td>@item.SizeName</td>
+                                <td>@item.CategoryName</td>
+                                <td>@(string.IsNullOrEmpty(item.Waist) ? "-" : item.Waist)</td>
+                                <td>@(string.IsNullOrEmpty(item.Hips) ? "-" : item.Hips)</td>
+                                <td>@(string.IsNullOrEmpty(item.LengthLower) ? "-" : item.LengthLower)</td>
+                                <td>@(string.IsNullOrEmpty(item.Bust) ? "-" : item.Bust)</td>
+                                <td>@(string.IsNullOrEmpty(item.LengthUpper) ? "-" : item.LengthUpper)</td>
+                                <td>@(string.IsNullOrEmpty(item.ArmHole) ? "-" : item.ArmHole)</td>
+                                <td>@(string.IsNullOrEmpty(item.BottomSleeve) ? "-" : item.BottomSleeve)</td>
+                                <td>@(string.IsNullOrEmpty(item.SleeveLength) ? "-" : item.SleeveLength)</td>
+                                <td>@(string.IsNullOrEmpty(@item.Description) ? "-" : @item.Description)</td>
+                            </tr>
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="12">
+                                <div class="pagination justify-content-between">
+                                    <div>page @Model.Dto.PageNumber of @Model.Dto.TotalPages</div>
+                                    <div class="text-dark">
+                                        @for (int i = @StartPage; i <= @EndPage; i++)
+                                        {
+                                          <a asp-route-pageNumber="@i" asp-route-pageSize="@Model.Dto.PageSize" asp-route-size="@Model.Size">@i</a>
+                                        }
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@await Html.PartialAsync("_Add")
+
+@await Html.PartialAsync("_Delete")
+
+@await Html.PartialAsync("_Update")
+
+
+
+

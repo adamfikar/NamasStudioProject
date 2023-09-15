@@ -1,0 +1,129 @@
+﻿@using NamasStudio.Web.MVC.Models.Products
+
+@model AllProductViewModels
+
+
+@{
+    var StartPage = @Model.ProductGridViewModel.Dto.PageNumber - 2;
+    var EndPage = @Model.ProductGridViewModel.Dto.PageNumber + 2;
+    var total = @Model.ProductGridViewModel.Dto.TotalPages;
+
+    if (StartPage <= 0)
+    {
+        EndPage = EndPage - (StartPage - 1);
+        StartPage = 1;
+    }
+
+    if (EndPage > total)
+    {
+        EndPage = (int)total;
+        if (EndPage > 5)
+        {
+            StartPage = EndPage - 4;
+        }
+    }
+
+    ViewData["Title"] = "Products Index";
+    //var TotalPages = Math.Ceiling((double)@Model.Count / (double)ViewBag.pageSize);
+}
+
+
+
+<div class="col col-search">
+    <div class="input-group pt-2 ps-2">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="search">
+                <i class="mdi mdi-magnify"></i>
+            </span>
+        </div>
+
+        @using (Html.BeginForm("Index", "Products", FormMethod.Get, null))
+        {
+            <input type="text" name="product" value="@Model.ProductGridViewModel.Product" placeholder="Input Product.." class="form-in" autocomplete="off" />
+            <span class="form-in">
+                <select class="border-0" name="category" aria-label="Default select example">
+                    <option value="null">Select Category</option>
+                    @foreach (var category in Model.ProductInsertViewModel.CategoryClassDropdown)
+                    {
+                        <option value="@category.Value" selected="@(Model.ProductGridViewModel.Category == Convert.ToInt32(category.Value))">
+                            @category.Text
+                        </option>
+                    }
+                </select>
+
+
+            </span>
+            <button class="btn btn-primary text-light ms-1">Submit</button>
+        }
+    </div>
+
+    <a class="btn btn-primary text-light m-2" id="myModalProduct">Add new</a>
+    <div class="text-end mx-2 fst-italic"> Found @Model.ProductGridViewModel.Dto.Count Data</div>
+</div>
+
+<div class="col stretch-card col-table">
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table id="recent-purchases-listing" class="table">
+                    <thead>
+                        <tr>
+                            <th>Action</th>
+                            <th>Product Name</th>
+                            <th>Color</th>
+                            <th>Price</th>
+                            <th>Desc</th>
+                            <!--<th>Fabric</th>
+                            <th>Weight</th>
+                            <th>Category</th> -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.ProductGridViewModel.Dto.Data)
+                        {
+                            <tr>
+                                <td>
+                                    <a data-id="@item.ProductId" class="btn btn-primary text-light update-product"><i class="fas fa-edit"></i></a>
+                                    <a data-id="@item.ProductId" class="btn btn-danger text-light delete-product" style="background-color: red;"><i class="fas fa-trash"></i></a>
+                                    <a asp-controller="ProductStock" asp-action="StockIndex" asp-route-productId="@item.ProductId" class="btn btn-warning text-light info-product"><i class="fas fa-info"></i></a>
+                                    <a asp-controller="ProductPhoto" asp-action="Index" asp-route-productId="@item.ProductId" class="btn btn-secondary text-light photo-product"><i class="fas fa-camera"></i></a>
+                                    
+                                    
+                                </td>
+                                <td>@item.ProductName</td>
+                                <td>@item.Color</td>
+                                <td>@item.UnitPrice</td>
+                                <td>@(item.Description.Length > 20 ? item.Description.Remove(20) + "..." : item.Description)</td>
+                                <!--<td>@item.Fabric</td>
+                                    <td>@item.Weight</td>
+                                    <td>@item.CategoryName</td>-->
+                            </tr>
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5">
+                                <div class="pagination justify-content-between">
+                                    <div>page @Model.ProductGridViewModel.Dto.PageNumber of @Model.ProductGridViewModel.Dto.TotalPages</div>
+                                    <div class="text-dark">
+                                        @for (int i = @StartPage; i <= @EndPage; i++)
+                                        {
+                                            <a asp-route-pageNumber="@i" asp-route-pageSize="@Model.ProductGridViewModel.Dto.PageSize" asp-route-product="@Model.ProductGridViewModel.Product">@i</a>
+                                        }
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Insert -->
+@await Html.PartialAsync("_Add",Model.ProductInsertViewModel)
+
+@await Html.PartialAsync("_Delete")
+
+@await Html.PartialAsync("_Update",Model.ProductUpdateViewModel)

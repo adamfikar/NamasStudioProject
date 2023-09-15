@@ -1,0 +1,119 @@
+﻿@using NamasStudio.Web.MVC.Models.ProductStock
+
+@model ProductStockGridViewModel
+
+@{
+    var StartPage = @Model.Dto.PageNumber - 2;
+    var EndPage = @Model.Dto.PageNumber + 2;
+    var total = @Model.Dto.TotalPages;
+
+    if (StartPage <= 0)
+    {
+        EndPage = EndPage - (StartPage - 1);
+        StartPage = 1;
+    }
+
+    if (EndPage > total)
+    {
+        EndPage = (int)total;
+        if (EndPage > 5)
+        {
+            StartPage = EndPage - 4;
+        }
+    }
+
+    ViewData["Title"] = "Products Index";
+    //var TotalPages = Math.Ceiling((double)@Model.Count / (double)ViewBag.pageSize);
+}
+
+<div>
+    <h2 class="ms-3 my-3 ">
+        @Model.Product.ProductName - @Model.Product.Color
+    </h2>
+
+    <div class="">
+        <div class="row">
+            <div class="ms-3 col">
+                <div class="row ">
+                    <div class="col-1">Price</div>
+                    <div class="col-6 tab-info">@(Model.Product.UnitPrice.ToString("C"))</div>
+                </div>
+                <div class="row">
+                    <div class="col-1">Fabric</div>
+                    <div class="col-6 tab-info">@Model.Product.Fabric</div>
+                </div>
+                <div class="row">
+                    <div class="col-1">Weight</div>
+                    <div class="col-6 tab-info">@Model.Product.Weight</div>
+                </div>
+                <div class="row">
+                    <input type="number" class="form-control" id="categoryId" value="@Model.Product.CategoryId" hidden>
+                </div>
+                <div class="row">
+                    <div class="col-1">Desc</div>
+                    <div class="col-6 tab-info">@Model.Product.Description</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+</div>
+
+<div class="">
+    <div class="col text-start">
+        <a class="btn btn-primary text-light m-2" id="myModalProductStock">Add new</a>
+    </div>
+    <div class="col text-end mx-2 fst-italic"> Found @Model.Dto.Count Data</div>
+</div>
+
+
+<div class="col stretch-card col-table">
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive overflow-hidden">
+                <table id="recent-purchases-listing" class="table">
+                    <thead>
+                        <tr>
+                            <th>Action</th>
+                            <th>Size</th>
+                            <th>Stock</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Dto.Data)
+                        {
+                            <tr>
+                                <td>
+                                    <a data-id="@item.ProductId @item.SizeId" class="btn btn-primary text-light update-productStock"><i class="fas fa-edit"></i></a>
+                                    <a data-id="@item.ProductId @item.SizeId" class="btn btn-danger text-light delete-productStock" style="background-color: red;"><i class="fas fa-trash"></i></a>
+                                </td>
+                                <td>@item.SizeName</td>
+                                <td>@item.Stock</td>
+                            </tr>
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@await Html.PartialAsync("_Update")
+
+@await Html.PartialAsync("_Add")
+
+@await Html.PartialAsync("_Delete")
+
+
+
