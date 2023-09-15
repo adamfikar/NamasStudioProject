@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj": {}
+    "C:\\.Net\\NamasStudioProject\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj": {
+    "C:\\.Net\\NamasStudioProject\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj",
+        "projectUniqueName": "C:\\.Net\\NamasStudioProject\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj",
         "projectName": "NamasStudio.DataAccess",
-        "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj",
+        "projectPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj",
         "packagesPath": "C:\\Users\\1691\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\obj\\",
+        "outputPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

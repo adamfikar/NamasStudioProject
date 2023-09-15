@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace NamasStudio.Dto.Validations
 {
+
     public class UniqueCategoryNameAttribute : ValidationAttribute
     {
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)

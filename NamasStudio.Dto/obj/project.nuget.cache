@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "4sWE6AC8fFCnESRURNNsuL30tzXKuoA4c/81TvwNcVAdoQUufeBRdubYEtENijPjdTOjvXlPt1wHzupflBLsmw==",
+  "dgSpecHash": "bcoV9oFF/lr+u30d3KaeoBFnfHRpAOnE4nAotakrAHMDargjp2sWS+OxmVW9n/uYTMS/nPf2bXnw4MBHQopEHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Dto\\NamasStudio.Dto.csproj",
+  "projectFilePath": "C:\\.Net\\NamasStudioProject\\NamasStudio.Dto\\NamasStudio.Dto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1691\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\1691\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\1691\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\1691\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\1691\\.nuget\\packages\\isopoh.cryptography.argon2\\2.0.0\\isopoh.cryptography.argon2.2.0.0.nupkg.sha512",
+    "C:\\Users\\1691\\.nuget\\packages\\isopoh.cryptography.blake2b\\2.0.0\\isopoh.cryptography.blake2b.2.0.0.nupkg.sha512",
+    "C:\\Users\\1691\\.nuget\\packages\\isopoh.cryptography.securearray\\2.0.0\\isopoh.cryptography.securearray.2.0.0.nupkg.sha512",
     "C:\\Users\\1691\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\1691\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\1691\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

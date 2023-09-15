@@ -19,12 +19,7 @@ namespace NamasStudio.Web.MVC.Controllers
         [HttpGet]
         public IActionResult Login()
         {
-            var model = new AllAuthViewModel
-            {
-                Login = new LoginViewModel(),
-                Register = new RegisterViewModel()
-            };
-
+            var model = new LoginViewModel();
             return View(model);
         }
 
@@ -33,7 +28,11 @@ namespace NamasStudio.Web.MVC.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View("Login");
+                var model = new LoginViewModel
+                {
+                    Dto = dto
+                };
+                return View(model);
             }
             var authTicket = _service.GetAuthenticationTicket(dto);
             await HttpContext.SignInAsync(authTicket.AuthenticationScheme,
@@ -45,24 +44,8 @@ namespace NamasStudio.Web.MVC.Controllers
         [HttpGet("register")]
         public IActionResult Register()
         {
-            var model = new AllAuthViewModel
-            {
-                Login = new LoginViewModel(),
-                Register = new RegisterViewModel()
-            };
-
+            var model = new LoginViewModel();
             return View(model);
-        }
-
-        [HttpPost("register")]
-        public IActionResult Register(RegisterDto dto)
-        {
-            if (!ModelState.IsValid)
-            {
-                return View("Register");
-            }
-            _service.RegisterUser(dto);
-            return RedirectToAction("Login");
         }
 
         public async Task<IActionResult> Logout()

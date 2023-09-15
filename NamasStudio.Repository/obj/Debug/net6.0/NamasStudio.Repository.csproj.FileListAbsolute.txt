@@ -66,3 +66,37 @@ C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.Repository\obj\Debug
 C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.Repository\obj\Debug\net6.0\refint\NamasStudio.Repository.dll
 C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.pdb
 C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.Repository\obj\Debug\net6.0\ref\NamasStudio.Repository.dll
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\bin\Debug\net6.0\NamasStudio.Repository.deps.json
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\bin\Debug\net6.0\NamasStudio.Repository.dll
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\bin\Debug\net6.0\NamasStudio.Repository.pdb
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\bin\Debug\net6.0\NamasStudio.DataAccess.dll
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\bin\Debug\net6.0\NamasStudio.Dto.dll
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\bin\Debug\net6.0\NamasStudio.DataAccess.pdb
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\bin\Debug\net6.0\NamasStudio.Dto.pdb
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.csproj.AssemblyReference.cache
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.AssemblyInfoInputs.cache
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.AssemblyInfo.cs
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.csproj.CoreCompileInputs.cache
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.csproj.CopyComplete
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.dll
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\refint\NamasStudio.Repository.dll
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.pdb
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\ref\NamasStudio.Repository.dll
+C:\.Net\NamasStudioProject\NamasStudio.Repository\bin\Debug\net6.0\NamasStudio.Repository.deps.json
+C:\.Net\NamasStudioProject\NamasStudio.Repository\bin\Debug\net6.0\NamasStudio.Repository.dll
+C:\.Net\NamasStudioProject\NamasStudio.Repository\bin\Debug\net6.0\NamasStudio.Repository.pdb
+C:\.Net\NamasStudioProject\NamasStudio.Repository\bin\Debug\net6.0\NamasStudio.DataAccess.dll
+C:\.Net\NamasStudioProject\NamasStudio.Repository\bin\Debug\net6.0\NamasStudio.Dto.dll
+C:\.Net\NamasStudioProject\NamasStudio.Repository\bin\Debug\net6.0\NamasStudio.DataAccess.pdb
+C:\.Net\NamasStudioProject\NamasStudio.Repository\bin\Debug\net6.0\NamasStudio.Dto.pdb
+C:\.Net\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.csproj.AssemblyReference.cache
+C:\.Net\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\.Net\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.AssemblyInfoInputs.cache
+C:\.Net\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.AssemblyInfo.cs
+C:\.Net\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.csproj.CoreCompileInputs.cache
+C:\.Net\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.csproj.CopyComplete
+C:\.Net\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.dll
+C:\.Net\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\refint\NamasStudio.Repository.dll
+C:\.Net\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\NamasStudio.Repository.pdb
+C:\.Net\NamasStudioProject\NamasStudio.Repository\obj\Debug\net6.0\ref\NamasStudio.Repository.dll

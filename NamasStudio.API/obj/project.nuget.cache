@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m/Ze+GTMxE2hgQwpAdXWISXykYpvlzfq6z1kVdV5bBx4XFGA3GPhZFL77YkhIgnU8kcqKR33J4VttEQ7buIOvw==",
+  "dgSpecHash": "nDduneGDlmnCiMLdLo1619gvu7NvJtvbyRBLzzu/wPxAP+W53HFq7gyb8hcWbcDKV1HPlxCLnqKdlyLOFRyHNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.API\\NamasStudio.API.csproj",
+  "projectFilePath": "C:\\.Net\\NamasStudioProject\\NamasStudio.API\\NamasStudio.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1691\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\1691\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

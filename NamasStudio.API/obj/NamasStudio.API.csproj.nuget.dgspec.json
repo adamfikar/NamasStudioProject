@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.API\\NamasStudio.API.csproj": {}
+    "C:\\.Net\\NamasStudioProject\\NamasStudio.API\\NamasStudio.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.API\\NamasStudio.API.csproj": {
+    "C:\\.Net\\NamasStudioProject\\NamasStudio.API\\NamasStudio.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.API\\NamasStudio.API.csproj",
+        "projectUniqueName": "C:\\.Net\\NamasStudioProject\\NamasStudio.API\\NamasStudio.API.csproj",
         "projectName": "NamasStudio.API",
-        "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.API\\NamasStudio.API.csproj",
+        "projectPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.API\\NamasStudio.API.csproj",
         "packagesPath": "C:\\Users\\1691\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.API\\obj\\",
+        "outputPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Services\\NamasStudio.Services.csproj": {
-                "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Services\\NamasStudio.Services.csproj"
+              "C:\\.Net\\NamasStudioProject\\NamasStudio.Services\\NamasStudio.Services.csproj": {
+                "projectPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.Services\\NamasStudio.Services.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj": {
+    "C:\\.Net\\NamasStudioProject\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj",
+        "projectUniqueName": "C:\\.Net\\NamasStudioProject\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj",
         "projectName": "NamasStudio.DataAccess",
-        "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj",
+        "projectPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj",
         "packagesPath": "C:\\Users\\1691\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\obj\\",
+        "outputPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -169,14 +169,14 @@
         }
       }
     },
-    "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Dto\\NamasStudio.Dto.csproj": {
+    "C:\\.Net\\NamasStudioProject\\NamasStudio.Dto\\NamasStudio.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Dto\\NamasStudio.Dto.csproj",
+        "projectUniqueName": "C:\\.Net\\NamasStudioProject\\NamasStudio.Dto\\NamasStudio.Dto.csproj",
         "projectName": "NamasStudio.Dto",
-        "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Dto\\NamasStudio.Dto.csproj",
+        "projectPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.Dto\\NamasStudio.Dto.csproj",
         "packagesPath": "C:\\Users\\1691\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Dto\\obj\\",
+        "outputPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.Dto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -197,8 +197,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj"
+              "C:\\.Net\\NamasStudioProject\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj": {
+                "projectPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj"
               }
             }
           }
@@ -212,6 +212,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Isopoh.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -231,14 +237,14 @@
         }
       }
     },
-    "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Repository\\NamasStudio.Repository.csproj": {
+    "C:\\.Net\\NamasStudioProject\\NamasStudio.Repository\\NamasStudio.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Repository\\NamasStudio.Repository.csproj",
+        "projectUniqueName": "C:\\.Net\\NamasStudioProject\\NamasStudio.Repository\\NamasStudio.Repository.csproj",
         "projectName": "NamasStudio.Repository",
-        "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Repository\\NamasStudio.Repository.csproj",
+        "projectPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.Repository\\NamasStudio.Repository.csproj",
         "packagesPath": "C:\\Users\\1691\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Repository\\obj\\",
+        "outputPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -259,11 +265,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj"
+              "C:\\.Net\\NamasStudioProject\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj": {
+                "projectPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj"
               },
-              "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Dto\\NamasStudio.Dto.csproj": {
-                "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Dto\\NamasStudio.Dto.csproj"
+              "C:\\.Net\\NamasStudioProject\\NamasStudio.Dto\\NamasStudio.Dto.csproj": {
+                "projectPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.Dto\\NamasStudio.Dto.csproj"
               }
             }
           }
@@ -302,14 +308,14 @@
         }
       }
     },
-    "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Services\\NamasStudio.Services.csproj": {
+    "C:\\.Net\\NamasStudioProject\\NamasStudio.Services\\NamasStudio.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Services\\NamasStudio.Services.csproj",
+        "projectUniqueName": "C:\\.Net\\NamasStudioProject\\NamasStudio.Services\\NamasStudio.Services.csproj",
         "projectName": "NamasStudio.Services",
-        "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Services\\NamasStudio.Services.csproj",
+        "projectPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.Services\\NamasStudio.Services.csproj",
         "packagesPath": "C:\\Users\\1691\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Services\\obj\\",
+        "outputPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -330,8 +336,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Repository\\NamasStudio.Repository.csproj": {
-                "projectPath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.Repository\\NamasStudio.Repository.csproj"
+              "C:\\.Net\\NamasStudioProject\\NamasStudio.Repository\\NamasStudio.Repository.csproj": {
+                "projectPath": "C:\\.Net\\NamasStudioProject\\NamasStudio.Repository\\NamasStudio.Repository.csproj"
               }
             }
           }

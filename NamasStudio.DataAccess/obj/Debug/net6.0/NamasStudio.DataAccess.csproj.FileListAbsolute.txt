@@ -54,3 +54,31 @@ C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.DataAccess\obj\Debug
 C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.pdb
 C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.genruntimeconfig.cache
 C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.DataAccess\obj\Debug\net6.0\ref\NamasStudio.DataAccess.dll
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.DataAccess\bin\Debug\net6.0\NamasStudio.DataAccess.deps.json
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.DataAccess\bin\Debug\net6.0\NamasStudio.DataAccess.runtimeconfig.json
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.DataAccess\bin\Debug\net6.0\NamasStudio.DataAccess.dll
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.DataAccess\bin\Debug\net6.0\NamasStudio.DataAccess.pdb
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.csproj.AssemblyReference.cache
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.AssemblyInfoInputs.cache
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.AssemblyInfo.cs
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.dll
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\refint\NamasStudio.DataAccess.dll
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.pdb
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.genruntimeconfig.cache
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\ref\NamasStudio.DataAccess.dll
+C:\.Net\NamasStudioProject\NamasStudio.DataAccess\bin\Debug\net6.0\NamasStudio.DataAccess.deps.json
+C:\.Net\NamasStudioProject\NamasStudio.DataAccess\bin\Debug\net6.0\NamasStudio.DataAccess.runtimeconfig.json
+C:\.Net\NamasStudioProject\NamasStudio.DataAccess\bin\Debug\net6.0\NamasStudio.DataAccess.dll
+C:\.Net\NamasStudioProject\NamasStudio.DataAccess\bin\Debug\net6.0\NamasStudio.DataAccess.pdb
+C:\.Net\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.csproj.AssemblyReference.cache
+C:\.Net\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\.Net\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.AssemblyInfoInputs.cache
+C:\.Net\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.AssemblyInfo.cs
+C:\.Net\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.csproj.CoreCompileInputs.cache
+C:\.Net\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.dll
+C:\.Net\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\refint\NamasStudio.DataAccess.dll
+C:\.Net\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.pdb
+C:\.Net\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\NamasStudio.DataAccess.genruntimeconfig.cache
+C:\.Net\NamasStudioProject\NamasStudio.DataAccess\obj\Debug\net6.0\ref\NamasStudio.DataAccess.dll

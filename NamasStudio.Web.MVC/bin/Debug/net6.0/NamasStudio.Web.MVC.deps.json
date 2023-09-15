@@ -1895,6 +1895,7 @@
       },
       "NamasStudio.Dto/1.0.0": {
         "dependencies": {
+          "Isopoh.Cryptography.Argon2": "2.0.0",
           "NamasStudio.DataAccess": "1.0.0"
         },
         "runtime": {

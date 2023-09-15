@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BnPT8ZAN9QeKll/YKhLd3gzPu5u1z5JYizvxGDA/IkNIFxxe7WbOOB/W3GwduccrTYztuz98MmI3KOLr/ppeog==",
+  "dgSpecHash": "U4azMvSl17n3EID/yjGKIhNam0y0fsGTX1XlyVcSUnvg62am7Cj1Y+3XMsefY7bbsevANSDe6F7J+iOwG1NTEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1691\\Desktop\\New folder\\NamasStudioMvc\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj",
+  "projectFilePath": "C:\\.Net\\NamasStudioProject\\NamasStudio.DataAccess\\NamasStudio.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1691\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\1691\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -1,5 +1,5 @@
 ﻿@using NamasStudio.Web.MVC.Models.Auth
-@model AllAuthViewModel
+@model LoginViewModel
 
 @{
     Layout = "_AuthLayout";
@@ -9,6 +9,7 @@
 
 
 <div class="containerLogin">
+     <div id="liveAlertPlaceholder"></div>
     <section class="text-center text-lg-start">
         <div class="container py-3">
             <div class="row g-0 align-items-center parentArea">
@@ -21,14 +22,16 @@
                             <h2 class="fw-bold mb-4">Sign In</h2>
                             <form asp-action="Login" method="Post" class="login-form">
                                 <div class="form-outline mb-3">
-                                    <input asp-for="Login.Dto.Username" class="form-control" name="username" id="username">
+                                    <input asp-for="Dto.Username" class="form-control" name="username" id="username">
                                     <label class="form-label" for="username">Username</label>
+                                    <span asp-validation-for="Dto.Username" class="text-danger"></span>
                                 </div>
                                 <div class="form-outline mb-3">
-                                    <input asp-for="Login.Dto.Password" class="form-control" name="password" type="password" id="password">
+                                    <input asp-for="Dto.Password" class="form-control" name="password" type="password" id="password">
+                                     <span asp-validation-for="@Model.Dto.Password" class="text-danger"></span>
                                     <label class="form-label" for="password">Password</label>
                                 </div>
-                                <button type="submit" class="btn btn-primary btn-block mb-3 text-light" id="loginBtn">
+                                <button type="submit" class="btn btn-primary btn-block mb-3 text-light" id="btn-submit-login">
                                     Sign in
                                 </button>
                                 <div class="text-center">
@@ -40,66 +43,7 @@
                 </div>
 
                 <div class="col-lg-6 mb-4 registerArea">
-
-                    <div class="card cascading-right" style="background: hsla(0, 0%, 100%, 0.55); backdrop-filter: blur(20px);">
-                        <div class="card-body p-4 shadow-3 text-center">
-                            <h2 class="fw-bold mb-4">Sign Up</h2>
-                            <form asp-action="Register" method="Post" class="register-form">
-
-                                <div class="form-outline mb-4">
-                                   <input asp-for="Register.Dto.Username" class="form-control" name="username">
-                                    <label class="form-label" for="username">Username</label>
-                                </div>
-
-                                <!-- 2 column grid layout with text inputs for the first and last names -->
-                                <div class="row">
-                                    <div class="col-md-6 mb-4">
-                                        <div class="form-outline">
-                                          <input asp-for="Register.Dto.FirstName" class="form-control" name="firstName">
-                                            <label class="form-label" for="firstName">First name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <div class="form-outline">
-                                             <input asp-for="Register.Dto.LastName" class="form-control" name="lastname">
-                                            <label class="form-label" for="lastname">Last name</label>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                  <div class="form-outline mb-4">
-                                     <input asp-for="Register.Dto.BirthDate" class="form-control" name="birthdate" type="date">
-                                    <label class="form-label" for="birthdate">Birthdate</label>
-                                </div>
-
-                                  <div class="form-outline mb-4">
-                                     <input asp-for="Register.Dto.Gender" class="form-control" name="gender">
-                                    <label class="form-label" for="gender">Gender</label>
-                                </div>
-
-                                <!-- Email input -->
-                                <div class="form-outline mb-4">
-                                   <input asp-for="Register.Dto.Email" class="form-control" name="email">
-                                    <label class="form-label" for="email">Email address</label>
-                                </div>
-
-                                <!-- Password input -->
-                                <div class="form-outline mb-4">
-                                    <input asp-for="Register.Dto.Password" class="form-control" name="password">
-                                    <label class="form-label" for="password">Password</label>
-                                </div>
-
-                                <button type="submit" class="btn btn-primary btn-block mb-3 text-light">
-                                    Sign Up
-                                </button>
-
-                                <div class="text-center">
-                                    <p>Already have an account? <a class="signInBtn" id="signInLink">Sign in</a></p>
-                                </div>
-
-                            </form>
-                        </div>
-                    </div>
+                    @await Html.PartialAsync("_Register")
                 </div>
 
                 <div class="col-lg-6 mb-4 d-lg-block d-none">

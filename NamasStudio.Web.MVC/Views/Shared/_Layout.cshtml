@@ -1,6 +1,6 @@
 ﻿@using System.Security.Claims
 @{
-    // var token = User.FindFirst("ApiToken").Value;
+    var name = User.FindFirst(ClaimTypes.NameIdentifier).Value;
 }
 
 <!DOCTYPE html>
@@ -45,16 +45,16 @@
                 </div>
             </div>
             <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-                <h2>Welcome back,</h2>
+                <h2>Welcome back</h2>
                 <ul class="navbar-nav navbar-nav-right">
                     <li class="nav-item nav-profile dropdown">
-                        <span id="token">|</span>
+            
                         <a class="nav-link dropdown-toggle"
                            href="#"
                            data-bs-toggle="dropdown"
                            id="profileDropdown">
                             <img src="~/img/item3.png" alt="profile" />
-                            <span class="nav-profile-name">Caroline Barnett</span>
+                            <span class="nav-profile-name">@name</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
                              aria-labelledby="profileDropdown">

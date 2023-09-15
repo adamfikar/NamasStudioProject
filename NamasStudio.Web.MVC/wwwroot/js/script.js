@@ -12,10 +12,175 @@ function deleteCookie(cookieName) {
 }
 
 $("#logoutBtn").click(function (e) {
-   // e.preventDefault();
+    // e.preventDefault();
     console.log("a");
     deleteCookie('token');
 });
+
+$("#btn-submit-login").click(function (e) {
+    e.preventDefault();
+    let isError = false;
+    let form = $(this).closest('form');
+
+    let username = $("#username").val();
+    let password = $("#password").val();
+
+    const dto = {
+        Username: username,
+        Password: password
+    };
+
+    $.ajax({
+        method: 'POST',
+        url: "https://localhost:7231/api/AuthApi/login",
+        data: JSON.stringify(dto),
+        contentType: 'application/json',
+        beforeSend: function () {
+            // Disable the button before sending the request
+            $("#btn-submit-login").prop('disabled', true);
+        },
+        error: function (xhr, status, error) {
+            // Handle server-side validation errors
+            if (xhr.status === 400) {
+                isError = true;
+                const errorObj = JSON.parse(xhr.responseText);
+
+                const alertPlaceholder = $('#liveAlertPlaceholder');
+                const errors = errorObj.errors;
+                let message = [];
+                $.each(errors, function (field, errorMessages) {
+                    message.push(errorMessages);
+                });
+
+                let messages = message.join(" <br> ");
+                const type = 'danger';
+                const wrapper = $('<div>').addClass(`alert alert-${type} alert-dismissible fade show position-fixed top-0 end-0 m-3 animate__animated animate__slideInUp`);
+                const content = $('<div>').html(messages);
+                const closeBtn = $('<button>').addClass('btn-close').attr({
+                    type: 'button',
+                    'data-bs-dismiss': 'alert',
+                    'aria-label': 'Close'
+                });
+                wrapper.append(content, closeBtn);
+                alertPlaceholder.append(wrapper);
+                wrapper.css("z-index", 9999);
+                setTimeout(() => {
+                    wrapper.alert('close');
+                }, 3000);
+            }
+        },
+        success: function (data) {
+            form.submit();
+        },
+        complete: function () {
+            if (isError) {
+                setTimeout(function () { $("#btn-submit-login").prop('disabled', false) }, 1000);
+            }
+        }
+    });
+});
+
+
+
+
+$(".btn-submit-register").click(function (e) {
+
+    e.preventDefault();
+    let isError = false;
+    let username = $("#usernameR").val();
+    let password = $("#passwordR").val();
+    let firstName = $("#firstName").val();
+    let lastName = $("#lastName").val();
+    let email = $("#email").val();
+
+
+    const dto = {
+        Username: username,
+        Password: password,
+        FirstName: firstName,
+        LastName: lastName,
+        Email: email,
+    };
+
+    console.log(dto);
+
+    $.ajax({
+        method: 'POST',
+        url: "https://localhost:7231/api/AuthApi/Register",
+        data: JSON.stringify(dto),
+        contentType: 'application/json',
+        beforeSend: function () {
+            // Disable the button before sending the request
+            $(".btn-submit-register").prop('disabled', true).html('Registering..');
+        },
+        success: function (response) {
+            // Handle successful response from the server
+            setTimeout(function () {
+                const alertPlaceholder = $('#liveAlertPlaceholder');
+                const message = 'Data saved successfully.';
+                const type = 'success';
+                const wrapper = $('<div>').addClass(`alert alert-${type} alert-dismissible fade show position-fixed top-0 end-0 m-3 animate__animated animate__slideInUp`);
+                const content = $('<div>').text(message);
+                const closeBtn = $('<button>').addClass('btn-close').attr({
+                    type: 'button',
+                    'data-bs-dismiss': 'alert',
+                    'aria-label': 'Close'
+                });
+                wrapper.append(content, closeBtn);
+                alertPlaceholder.append(wrapper);
+
+                setTimeout(() => {
+                    wrapper.alert('close');
+                    setTimeout(() => {
+                        location.reload();
+                    }, 500);
+                }, 2000);
+            }, 1000);
+        }, error: function (xhr, status, error) {
+            // Handle server-side validation errors
+            if (xhr.status === 400) {
+
+                isError = true;
+                const errorObj = JSON.parse(xhr.responseText);
+
+                const alertPlaceholder = $('#liveAlertPlaceholder');
+                const errors = errorObj.errors;
+                //console.log(errors);
+                let message = [];
+                $.each(errors, function (field, errorMessages) {
+                    message.push(errorMessages);
+                });
+
+                let messages = message.join(" <br> ");
+                const type = 'danger';
+                const wrapper = $('<div>').addClass(`alert alert-${type} alert-dismissible fade show position-fixed top-0 end-0 m-3 animate__animated animate__slideInUp`);
+                const content = $('<div>').html(messages);
+                const closeBtn = $('<button>').addClass('btn-close').attr({
+                    type: 'button',
+                    'data-bs-dismiss': 'alert',
+                    'aria-label': 'Close'
+                });
+                wrapper.append(content, closeBtn);
+                alertPlaceholder.append(wrapper);
+                wrapper.css("z-index", 9999);
+                setTimeout(() => {
+                    wrapper.alert('close');
+                }, 3000);
+
+            }
+        },
+        complete: function () {
+            if (isError) {
+                setTimeout(function () { $(".btn-submit-register").prop('disabled', false).html('Register') }, 1000);
+            }
+        }
+
+    });
+
+});
+
+
+
 
 
 //Masonry Layout
@@ -1187,7 +1352,7 @@ $(".update-productSize").click(function (event) {
 
 $(".btn-productSizeUpdate-submit").click(function (event) {
     // Prevent the default form submission behavior
-   // event.preventDefault();
+    // event.preventDefault();
 
     isError = false;
     // Get the data from the input fields
@@ -1534,10 +1699,10 @@ $(document).ready(function () {
             parent.append(register);
             $(".loginArea").removeClass("animate__animated animate__slideOutRight");
         }, 500);
-        
+
     });
 
-    
+
     $("#signInLink").click(function () {
         console.log("signIn");
         $(".registerArea").toggleClass("animate__animated animate__slideOutLeft");

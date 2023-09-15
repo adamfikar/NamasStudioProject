@@ -58,3 +58,33 @@ C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.Dto\obj\Debug\net6.0
 C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.Dto\obj\Debug\net6.0\refint\NamasStudio.Dto.dll
 C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.pdb
 C:\Users\1691\Desktop\New folder\NamasStudioMvc\NamasStudio.Dto\obj\Debug\net6.0\ref\NamasStudio.Dto.dll
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Dto\bin\Debug\net6.0\NamasStudio.Dto.deps.json
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Dto\bin\Debug\net6.0\NamasStudio.Dto.dll
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Dto\bin\Debug\net6.0\NamasStudio.Dto.pdb
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Dto\bin\Debug\net6.0\NamasStudio.DataAccess.dll
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Dto\bin\Debug\net6.0\NamasStudio.DataAccess.pdb
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.csproj.AssemblyReference.cache
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.AssemblyInfoInputs.cache
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.AssemblyInfo.cs
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.csproj.CoreCompileInputs.cache
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.csproj.CopyComplete
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.dll
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\refint\NamasStudio.Dto.dll
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.pdb
+C:\Users\1691\Desktop\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\ref\NamasStudio.Dto.dll
+C:\.Net\NamasStudioProject\NamasStudio.Dto\bin\Debug\net6.0\NamasStudio.Dto.deps.json
+C:\.Net\NamasStudioProject\NamasStudio.Dto\bin\Debug\net6.0\NamasStudio.Dto.dll
+C:\.Net\NamasStudioProject\NamasStudio.Dto\bin\Debug\net6.0\NamasStudio.Dto.pdb
+C:\.Net\NamasStudioProject\NamasStudio.Dto\bin\Debug\net6.0\NamasStudio.DataAccess.dll
+C:\.Net\NamasStudioProject\NamasStudio.Dto\bin\Debug\net6.0\NamasStudio.DataAccess.pdb
+C:\.Net\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.csproj.AssemblyReference.cache
+C:\.Net\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\.Net\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.AssemblyInfoInputs.cache
+C:\.Net\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.AssemblyInfo.cs
+C:\.Net\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.csproj.CoreCompileInputs.cache
+C:\.Net\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.csproj.CopyComplete
+C:\.Net\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.dll
+C:\.Net\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\refint\NamasStudio.Dto.dll
+C:\.Net\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\NamasStudio.Dto.pdb
+C:\.Net\NamasStudioProject\NamasStudio.Dto\obj\Debug\net6.0\ref\NamasStudio.Dto.dll

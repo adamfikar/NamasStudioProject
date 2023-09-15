@@ -84,7 +84,7 @@ namespace NamasStudio.Services.Services.Implementations
             //var token = CreateToken(user);
             var claims = new List<Claim> {
                 new Claim("username", user.Username),
-                new Claim(ClaimTypes.NameIdentifier, user.Username),
+                new Claim(ClaimTypes.NameIdentifier, user.FirstName + " " + user.LastName),
                 new Claim(ClaimTypes.Role, user.Role.RoleName),
                 //new Claim("ApiToken",token)
             };

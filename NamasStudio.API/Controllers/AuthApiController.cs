@@ -21,5 +21,25 @@ namespace NamasStudio.API.Controllers
         {
             return Ok(_service.Login(dto));
         }
+
+
+        [HttpPost("Register")]
+        public async Task<IActionResult> Register(RegisterDto dto)
+        {
+            try
+            {
+                if (!ModelState.IsValid) {
+                    // If the ModelState is not valid, return the validation errors to the client.
+                    var errors = ModelState.Values.SelectMany(v => v.Errors.Select(e => e.ErrorMessage));
+                    return BadRequest(errors);
+                }
+                _service.RegisterUser(dto);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }
